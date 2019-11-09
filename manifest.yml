@@ -1,0 +1,11 @@
+---
+applications:
+- name: cf-php-demo
+  memory: 128M
+  #instances: 1
+  #host: api.local.pcfdev.io
+  #domain: api.local.pcfdev.io
+  path: .
+  buildpack: https://github.com/dmikusa-pivotal/cf-php-build-pack.git
+  env:
+    COMPOSER_PATH: ""
