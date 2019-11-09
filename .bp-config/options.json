@@ -1,5 +1,0 @@
-{
-    "WEBDIR": "htdocs",
-    "LIBDIR": ".",
-    "COMPOSER_VENDOR_DIR": "htdocs/vendor"
-}
